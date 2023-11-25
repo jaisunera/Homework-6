@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.top-buttons-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.top-buttons {
+    font-size: 18px;
+    font-family: Chalkduster;
+    padding: 12px 24px;
+    border: white;
+    border-radius: 8px;
+    background-color: #5F6F52;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+  
+button:hover {
+    background-color: #8CA98B;
+}
+  

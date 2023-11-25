@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: Chalkduster;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: #ffffff; /* Set button background color */
+  color: #333333; /* Set button text color */
+  border: 2px solid #999999; /* Set border color */
+  transition: all 0.3s ease; /* Add smooth transition effect */
+}
+
+.square:hover {
+  background-color: #FEFAE0; /* Change background color on hover */
+  color: #555555; /* Change text color on hover */
+  border-color: #777777; /* Change border color on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  justify-content: center; /* Horizontally center the game */
+  align-items: center; /* Vertically center the game */
+  height: 100vh; /* Set the height to full viewport height */
+}
+
+.game-info {
+  margin-left: 20px;
+}
